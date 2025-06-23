@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.add-ingredient {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  height: 38px;
+}
+main {
+  padding: 30px 30px 10px;
+}
+
+.add-ingredient input {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 9px 13px;
+
+  box-shadow: opx 1px 3px 0px rgba(0, 0, 0, 0.5);
+  min-width: 150px;
+  max-width: 400px;
+  flex-grow: 1;
+}
+
+.add-ingredient button {
+  font-family: sans-serif;
+  border-radius: 8px;
+  border: none;
+  background-color: #141413;
+  color: white;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.add-ingredient button::before {
+  content: "+";
+  margin-right: 8px;
+}
+
+.add-ingredient {
+  display: flex;
+
+  justify-content: center;
+  gap: 12px;
+  height: 38px;
+}
+main {
+  padding: 30px 30px 10px;
+}
+
+header img {
+  width: 50px;
+}
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+}
+
+.add-ingredient input {
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 9px 13px;
+  box-shadow: opx 1px 3px 0px rgba(0, 0, 0, 0.5);
+  min-width: 150px;
+  max-width: 400px;
+  flex-grow: 1;
+}
+
+.add-ingredient button {
+  font-family: sans-serif;
+  border-radius: 8px;
+  border: none;
+  background-color: #141413;
+  color: white;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.add-ingredient button::before {
+  content: "+";
+  margin-right: 8px;
+}
+
+.get-recipe-container {
+  background-color: rgb(240, 240, 240);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 16px;
+  border-radius: 16px;
+}
+
+.get-recipe-container p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(68, 68, 68);
+  line-height: 20px;
+}
+.get-recipe-container button {
+  background-color: #d17557;
+  padding: 8px 14px;
+  border-radius: 8px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.suggested-recipe-container {
+  color: #475467;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 400;
+}
