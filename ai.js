@@ -14,7 +14,7 @@ export async function getRecipeFromMistral(ingredientsArr) {
 
   I have: ${ingredientsString}.
   Please give me a recipe you'd recommend I make.
-  `;
+  `; 
 
   try {
     const response = await hf.textGeneration({

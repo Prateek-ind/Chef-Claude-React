@@ -14,7 +14,7 @@ const Main = () => {
     const newIngredient = formData.get("ingredient");
     setIngredients((prevIngredient) => [...prevIngredient, newIngredient]);
   }
-
+ 
   async function getRecipe() {
     const recipe = await getRecipeFromOpenRouter(ingredients);
     setGeneratedRecipe(recipe);
